@@ -1,0 +1,29 @@
+DatabaseArchive/
+
+# Ignore the console app since only the ASP.NET Core app should be executable
+Strategies.ConsoleApp/
+Strategies.Tests/
+
+bin/
+obj/
+
+# Contains connection strings and API keys
+appsettings.json
+
+# SQL query to test the database (SQLite)
+*.sql
+
+# Ignore any excel files
+*.xlsx
+*.xls
+
+*drawio*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+log*.txt
+
+# Ignore database
+*.db*

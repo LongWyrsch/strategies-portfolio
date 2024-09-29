@@ -1,0 +1,4 @@
+@Server_HostAddress = https://localhost:7248
+
+GET {{Server_HostAddress}}/api/GetAllResults
+Accept: application/json
