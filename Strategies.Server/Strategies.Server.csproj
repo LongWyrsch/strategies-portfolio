@@ -15,13 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Strategies.Domain\Strategies.Domain.csproj" />
-    <ProjectReference Include="..\Strategies.ConsoleApp\Strategies.ConsoleApp.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="strategies.db">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\Strategies.Persistence\Strategies.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

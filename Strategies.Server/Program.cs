@@ -1,4 +1,3 @@
-using Strategies.ConsoleApp;
 using Strategies.Domain;
 using Strategies.Domain.Presentation;
 using Strategies.Persistence;
