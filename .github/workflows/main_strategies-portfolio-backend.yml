@@ -55,5 +55,5 @@ jobs:
         with:
           app-name: 'strategies-portfolio-backend'
           slot-name: 'Production'
-          package: ./published
+          package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82F1897D7C274D7BB0B84517C1A071F5 }}
