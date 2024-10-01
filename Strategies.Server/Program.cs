@@ -4,10 +4,6 @@ using Strategies.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Tried reading the appsettings.json file from the Strategies.ConsoleApp project, but it didn't work.
-// builder.Configuration.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Strategies.ConsoleApp"));
-// builder.Configuration.AddJsonFile("../Strategies.ConsoleApp/appsettings.json", optional: false, reloadOnChange: true);
-
 // Add services to the container.
 builder.Services.AddCors(options =>
 {
