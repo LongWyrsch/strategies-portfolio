@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
             {
                 policy.WithOrigins("http://127.0.0.1:5500");
                 policy.WithOrigins("http://localhost:5173");
-                policy.WithOrigins("https://strategies-portfolio-charting-ekctcbgpgfgjf0h0.canadacentral-01.azurewebsites.net/");
+                policy.WithOrigins("https://calm-water-0ef22910f.5.azurestaticapps.net/");
                 policy.AllowAnyHeader();
                 policy.AllowAnyMethod();
             });
