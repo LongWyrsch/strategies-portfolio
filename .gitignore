@@ -7,8 +7,7 @@ Strategies.Tests/
 bin/
 obj/
 
-# Contains connection strings and API keys
-appsettings.json
+
 
 # SQL query to test the database (SQLite)
 *.sql
@@ -27,3 +26,5 @@ log*.txt
 
 # Ignore database
 *.db*
+
+.env
